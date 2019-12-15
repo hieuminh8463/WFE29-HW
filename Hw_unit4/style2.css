@@ -1,0 +1,30 @@
+body{
+	width: 1000px;
+	height: 100px;
+}
+div{
+	width: 190px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+}
+span{
+	padding-left: 15px;
+}
+#sale{
+	width: 130px;
+}
+.danhmuc{
+	text-decoration: none;
+	font-weight: bold;
+}
+.danhmuc:hover{
+	text-decoration: underline;
+	color:  #50bde8;
+}
+.sudung{
+	text-decoration: none;
+}
+.sudung:hover{
+	color: #50bde8;
+}

@@ -1,0 +1,19 @@
+div{
+	width:150px;
+	display: inline-block;
+	border:1px solid black;
+	text-align: center;
+	margin: 8px;
+}
+.galaxy{
+	color: orange;
+
+}
+.price{
+	color: red;
+	font-weight: bold;
+}
+div:hover{
+	border-color: orange;
+
+}

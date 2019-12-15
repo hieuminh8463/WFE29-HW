@@ -1,0 +1,220 @@
+
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: arial;
+	font-size: 12px;
+
+}
+#all{
+	background-image: url(images/tuyet.jpg);
+	background-repeat: repeat-y;
+	width:1024px;
+	height:1440px;
+	margin:auto;
+}
+#s1{
+	width: 800px;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin:auto;
+	background-color: #fff;
+	border-bottom: 4px solid #fff;
+}
+#content #left{
+	width: 175px;
+	float: left;
+	height: 600px;
+}
+.new{
+	border: 1px solid black;
+	width: 150px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+.new ul {
+	margin:0px;
+	padding:0px;
+}
+.new ul li{
+	list-style-type: none;
+	line-height: 25px;
+
+}
+.tieude{
+	background-image: url(images/menu_bar.gif);
+	background-repeat:none;
+	text-align: center;
+	color: white;
+	background-size: 100%;
+	font-weight: bold;
+	margin-left: -5px;
+}
+#content #main{
+	width: 450px;
+	float:left;
+}
+.title{
+	font-weight: bold;
+	text-indent: 5px;
+}
+.title2{
+	font-weight: bold;
+	padding-right: 10px;
+
+}
+#gioithieu{
+	border: 6px solid #ffbb88;
+	border-radius: 20px;
+	background-color: #ffbb88;
+	color: white;
+	font-style: italic;
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 10px;
+}
+.main_title{
+	padding-bottom: 5px;
+	height: 165px;
+}
+ .main_title img{
+	float: left; 
+	border:1px solid #e3e3e3;
+	margin-right: 5px;
+	padding:3px;
+}
+.main_title .title{
+	background-image: url(images/main_bar_left.gif);
+	line-height: 20px;
+	color: white;
+
+}
+.main_title2{
+	padding-bottom: 5px;
+	height: 165px;
+}
+.main_title2 img{
+	border:1px solid #e3e3e3;
+	margin-right: 5px;
+	padding:3px;
+	float: right;
+}
+.main_title2 .title2{
+	background-image: url(images/main_bar_right.gif);
+	line-height: 20px;
+	color: white;
+	text-align: right;
+}
+.main_title2 .label2{
+	text-align: right;
+}
+#content #right{
+	width: 160px;
+	height: 600px;
+	float: right;
+}
+.new2{
+	border: 1px solid black;
+	width: 150px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+
+}
+.new2 ul {
+	margin:0px;
+	padding:0px;
+}
+.new2 ul li{
+	list-style-type: none;
+	line-height: 25px;
+	padding-left: 10px;
+
+}
+.tieude2{
+	background-image: url(images/menu_bar.gif);
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	background-size: 100%;
+	font-weight: bold;
+
+
+
+}
+#banner{
+	height: 500px;
+}
+#menu{
+	border: 1px solid black;
+	font-weight: bold;
+	width: 793px;
+	background-color: #434343;
+	height: 40px;
+	margin-bottom: 5px;
+	padding-top:10;
+	border-bottom: 4px solid orange;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li{
+	list-style-type: none;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 15px 0px 10px;
+	border-right: 1px solid black;
+}
+hr{
+	margin-bottom: 10px;
+}
+.duongdan:hover{
+	text-decoration: underline;
+	color: yellow;
+}
+.duongdan{
+	text-decoration: none;
+	color: black;
+}
+.chitiet:hover{
+	text-decoration: underline;
+	color: yellow;
+}
+.chitiet{
+	color: orange;
+	text-decoration: none;
+}
+.duongdan1{
+	color: orange;
+	text-decoration: none;
+}
+.duongdan1:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.duongdan2{
+	color: orange;
+	text-decoration: none;
+
+}
+.duongdan2:hover{
+	text-decoration: underline;
+	color: blue;
+}
+#footer{
+	clear: both;
+	width: 794px;
+	background-color: #aaa;
+	height: 96px;
+	border-top: 4px solid orange;
+}
+#footer_text{
+	color: #fff;
+	text-align: center;
+	line-height: 96px;
+	font-weight: bold;
+}
