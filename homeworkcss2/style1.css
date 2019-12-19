@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#all{
+	background-image: url(images/bg.jpg);
+	height:1500px;
+}
+#head{
+	width: 100%;
+	height: 110px;
+}
+#head #head1{
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+#head #head1 h2{
+	padding: 25px;
+	font-style: italic;
+	}
+#head #head2{
+	width:294px;
+	height: 50px;
+	float: left;
+	margin-left: 490px;
+	margin-top: 15px;
+}
+#head #head2 ul li{
+	list-style-type:none;
+	float: left;
+	margin-left: 35px; 
+	margin-top: 10px;
+}
+
+#sl1{
+	width: 50px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	background-color: #dddddd;
+	margin-left: 200px;
+	margin-top: 5px;
+	text-indent: 3px;
+	border-left-width: 10px;
+	border-right-width: 10px;
+	border-top-width: 4px;
+}
+#sl1:hover{
+	color: blue;
+}
+.sl2:hover{
+	color: blue;
+}
+#main{
+	width: 100%;
+	height: 700px;
+	float: left;
+}
+#menu{
+	width: 200px;
+	float: left;
+}
+#menu ul li{
+	list-style-type: none;
+	line-height: 30px;
+}
+#menu ul li a{
+	text-decoration:none;
+	color: black;
+	padding-left: 25px;
+}
+#menu ul li a:hover{
+	text-decoration:underline;
+	color: yellow;
+}
+#content1{
+	width: 251px;
+	height: 900px;
+	float: left;
+	margin-right: 20px;
+}
+#content1 #title1{
+	width: 250px;
+	height: 210px;
+	border-radius: 15px;
+	margin-bottom: 25px;
+	position: relative;
+	overflow: hidden;
+}
+#content1 #title1 .div1{
+	height: 30px;
+	color: black;
+	font-weight: bold;
+	padding:10px 0px 0px 10px;
+	background-color: #fff;
+	border-radius: 15px 15px 0px 0px;
+
+}
+#content1 #title1 img{
+    border-radius: 0px 0px 15px 15px;
+}
+
+#anh1{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 250px;
+	height: 30px;
+	color: #fff;
+	background-color: #454545;
+	border-radius: 0px 0px 15px 15px;
+    font-size: 13px;
+    text-indent: 10px;
+    opacity: 0.7;
+    line-height: 40px;
+}
+#footer ul{
+	margin: 0px;
+	padding: 0px;
+}
+#footer ul li{
+	list-style-type: none;
+	float: left;
+	padding:25px;
+	color: blue;
+}
+#footer ul li a:hover{
+	color: yellow;
+
+}
+#footer ul #footer1{
+	color: black;
+	text-decoration: none;
+}
+#title1:hover img{
+	transform: scale(1.1);
+}
+#title1 img{
+	transition: all-ease-in-out 500ms;
+	transform: scale(1);
+}
+
