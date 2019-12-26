@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+#header{
+	height: 160px;
+	width: 80%;
+	margin:0 auto;
+}
+#header ul{
+	float: left;
+	margin-left: 275px;
+	height: 100px;
+}
+#header ul li{
+	list-style-type: none;
+	float: left;
+	padding-left: 48px;
+	line-height: 100px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #cccccc;
+	font-weight: bold;
+
+}
+#title{
+	height: 130px;
+	width: 80%;
+	margin: 0 auto;
+
+}
+#title h1{
+	font-weight: bold;
+	font-size: 43px;
+	text-align: center;
+	color: #6cc3b4;
+}
+#title p{
+	font-weight: bold;
+	text-align: center;
+	color: #c4cdd2;
+}
+#content{
+	height:500px;
+	width: 80%;
+	margin:0 auto;
+}
+#box{
+	width: 100%;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	overflow: hidden;
+}
+@keyframes changeColor{
+	0%{top:0; left:0;}
+	100%{top:150px; left: 0px;}
+	}
+.move{
+	position: absolute;
+	bottom:0;
+	display: none;
+	animation-name: changeColor;
+	animation-duration: 2s;
+	animation-iteration-count:infinite;
+	animation-timing-function: ease-in;
+	animation-direction: reverse;
+}
+.move h3{
+	color: #6cc3b4;
+}
+.move p{
+	color: #c4cdd2;
+}
+#box:hover .move{
+	display: block;
+}
+.left{
+	width: 30%;
+	float: left;
+	padding-right: 70px;
+}
+.left1{
+	padding-bottom: 50px;
+	width: 300px;
+}
+.left1 h4{
+	float: left;
+	padding-right: 190px;
+	color: #6cc3b4;
+}
+.left1 h5{
+	float: left;
+}
+.left1 p{
+	clear: both;
+	color: #c4cdd2;
+}
+.main{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: right;
+	width: 30%;
+}
+
+#title2{
+	padding-top: 80px;
+	width: 80%;
+	margin: 0 auto;
+}
+#title3{
+	width: 80%;
+	height: 450px;
+	margin: 0 auto;
+}
+#title2{
+	color: #ced4d4;
+	text-align: center;
+	padding-bottom: 50px;
+}
+#t3l{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+#t3l p{
+	padding-top: 20px;
+}
+#t3l h3{
+	color: #6cc3b4;
+}
+#t3r{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-left: 80px;
+}
+#t3r h3{
+	color: #6cc3b4;
+}
+#t3r p{
+	padding-top: 20px;
+}
+#icon li {
+	display: inline-block;
+	padding: 20px;
+}
+#icon li h1{
+	color:  #6cc3b4;
+}
+#footerme{
+	background: #9accc5;
+
+
+}
+#footer{
+	width: 80%;
+	margin: 0 auto;
+	height: 500px;
+}
+#footer h4{
+	padding-top: 20px;
+	color:white;
+}
+#footer h2{
+	color: white;
+}#footer p{
+	color: white;
+}
+#footer .text{
+	width: 100%;
+}
+#footer .area{
+	width: 100%;
+	height: 150px;
+}
+#footer #color{
+	background: #2d7265;
+}
