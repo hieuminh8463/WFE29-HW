@@ -1,0 +1,1048 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+}
+.border{
+	width: 100%;
+	height: 20px;
+	background: #eff1fa;
+}
+#header{
+	width: 100%;
+	height:800px;
+	margin: 0px auto;
+	background: url(image/banner/banner.jpg);
+	background-size: 100%;
+}
+.menu{
+	width: 100%;
+	height: 30px;
+	display: none;
+}
+.menu h4{
+	float: left;
+}
+#banner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top:0;
+	left: 0;
+	background: white;
+	opacity: 0.8;
+}
+#banner h4{
+	font-size: 20px;
+	padding: 50px;
+	float: left;
+}
+#banner h4 a{
+	text-decoration: none;
+	color: blue
+}
+#banner h4 a:hover{
+	text-decoration: underline;
+	color: black;
+}
+#banner ul{
+	padding: 50px;
+	position: absolute;
+	right: 60px;
+
+}
+#banner ul li{
+	float: left;
+	list-style-type: none;
+	float: left;
+	padding-right: 20px;
+	font-weight: bold;
+}
+#banner ul li a{
+	text-decoration: none;
+	color: black;
+}
+#banner ul li a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+#banner h1{
+	font-size:75px;
+	padding-top: 350px;
+	padding-left:50px;
+}
+#banner h3{
+	padding-left: 55px;
+	font-size: 25px;
+	padding-top: 50px;
+}
+#banner .none1{
+	display: none;
+}
+#banner .none2{
+	display: none;
+}
+#history{
+	width: 80%;
+	height: 300px;
+	margin: 0px auto;
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+#myself{
+	width: 55%;
+	height: 100%;
+	float: left;
+	padding-right: 5%;
+}
+#myself h5{
+	font-weight: bold;
+
+}
+#myself h4{
+	padding-top: 10px;
+}
+#myself p{
+	padding-bottom: 20px;
+	padding-top: 10px;
+	color: #6B6B6B;
+}
+#myself a{
+	text-decoration: none;
+	border: 1px solid #505cfd;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+	background: #505cfd;
+	padding-top: 10px;
+}
+#myself a:hover{
+	color: black;
+	background: white;
+}
+
+#avatar{
+	box-shadow:  0px 0px 10px 0px #888888;
+	width: 40%;
+	height: 100%;
+	float: left;
+	border-radius:20px;
+}
+.title{
+	width: 100%;
+	height: 400px;
+	background: #f6f7fe;
+	box-shadow:  0px 0px 20px 0px grey;
+}
+.title_con{
+	width: 80%;
+	margin: 0px auto;
+}
+.skill_con{
+	width: 30%;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+.skill_con p{
+	float: left;
+}
+.move1{
+	padding-left: 210px;
+}
+.move2{
+	padding-left: 290px;
+}
+.move3{
+	padding-left: 160px;
+}
+.move4{
+	padding-left: 210px;
+}
+.move5{
+	padding-left: 250px;
+}
+.move6{
+	padding-left: 260px;
+}
+.run{
+	width: 100%;
+	height: 12px;
+	background-color: #E3E3E3;
+	clear: both;
+	position: relative;
+	border-radius: 20px;
+
+}
+.run1{
+	width: 97%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.run2{
+	width: 88%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.run3{
+	width: 91%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.run4{
+	width: 83%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.run5{
+	width: 77%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.run6{
+	width: 88%;
+	height:100%; 
+	background-color: blue;
+	border-radius: 20px;
+	position: absolute;
+
+}
+.title h1{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 90px;
+	background: white;
+	opacity: 0.2;
+	position: relative;
+}
+.title h2{
+	position: absolute;
+	color: black;
+	font-size: 50px;
+	left:630px;
+	margin-top:-75px;
+}
+.title2{
+	width: 80%;
+	height: 480px;
+	margin: 0px auto;
+
+}
+.title2 h1{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 90px;
+	background: white;
+	opacity: 0.2;
+	position: relative;
+	padding-bottom: 50px;
+}
+.title2 h2{
+	position: absolute;
+	color: black;
+	font-size: 50px;
+	left:595px;
+	margin-top:-125px;
+}
+#services .big{
+	font-size: 30px;
+	border: 1px solid black;
+	padding: 10px;
+	color: white;
+	border-radius: 50%;
+	background: #505cfd;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+.box1{
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin-right: 40px;
+	box-shadow:  0px 10px 20px 0px grey;
+	background: #f6f7fe;
+}
+.box1 p{
+	padding-bottom: 30px;
+	padding-top: 10px;
+	color: #545556;
+}
+#happy{
+	width: 100%;
+	height: 200px;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	background: #f6f7fe;
+}
+.happy_con{
+	width: 80%;
+	margin: 0px auto;
+}
+#happy .box2{
+	width: 23%;
+	height: 130px;
+	float: left;
+	border: 1px dashed blue;
+	margin-right: 14px;
+	text-align: center;
+}
+.box2 .big1{
+	font-size: 30px;
+	color: #505cfd;
+	padding-top: 10px;
+}
+.box2 h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.box2 p{
+	padding-bottom: 20px;
+}
+.title3{
+	width: 80%;
+	height: 1100px;
+	margin: 0px auto;
+
+}
+.title3 h1{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 90px;
+	background: white;
+	opacity: 0.2;
+	position: relative;
+	padding-bottom: 50px;
+}
+.title3 h2{
+	position: absolute;
+	color: black;
+	font-size: 40px;
+	left:620px;
+	margin-top:-120px;
+}
+.work{
+	text-align: center;
+	color: blue;
+	padding-bottom: 30px;
+}
+.work .box3{
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 20px;
+	padding: 10px;
+	width: 100px;
+}
+.box3:hover{
+	color: white;
+	background: blue;
+}
+.anh{
+	width: 100%;
+}
+.anh1{
+	width: 50%;
+	float: left;
+}
+.title4{
+	width: 100%;
+	height: 400px;
+	background: #f6f7fe;
+	box-shadow:  0px 10px 10px 0px grey;
+
+}
+.title4_con{
+	width: 80%;
+	margin: 0px auto;
+
+}
+.title4 h1{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 90px;
+	background: white;
+	opacity: 0.2;
+	position: relative;
+	padding-bottom: 50px;
+}
+.title4 h2{
+	position: absolute;
+	color: black;
+	font-size: 40px;
+	left:650px;
+	margin-top:-120px;
+}
+.say{
+	width: 100%;
+}
+.box4{
+	width: 45%;
+	float: left;
+	padding-right: 60px;
+}
+.box4_1{
+	width: 45%;
+	float: left;
+	padding-right: 60px;
+}
+.move{
+	width: 30%;
+	float: left;
+	padding-right: 10px;
+}
+.move_con{
+	width: 65%;
+	float: left;
+}
+.move_con h3{
+	font-size: 40px;
+	color: #d8dad6;
+}
+.move_con1{
+	float: left;
+	color: blue;
+	border-right: 1px solid black;
+	padding-right: 5px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+.move_con2{
+	float: left;
+	padding-left: 5px;
+	line-height: 25px;
+}
+.move_con3{
+	clear: both;
+	padding-left: 15px;
+	color: #727171;
+}
+.icon .dot{
+	display: inline-block;
+}
+.icon .dot1{
+	display: none;
+}
+.icon{
+	text-align: center;
+	padding-top: 50px;
+}
+.icon .grey{
+	color: grey;
+}
+.icon .blue{
+	color: blue;
+}
+.title5{
+	width: 80%;
+	margin: 0px auto;
+	height: 800px;
+}
+.title5 h1{
+	text-align: center;
+	opacity: 0.5;
+	font-size: 90px;
+	background: white;
+	opacity: 0.2;
+	position: relative;
+	padding-bottom: 50px;
+}
+.title5 h2{
+	position: absolute;
+	color: black;
+	font-size: 40px;
+	left:635px;
+	margin-top:-120px;
+}
+.box5{
+	width: 30%;
+	height:500px;
+	position: relative;
+	float: left;
+	margin-right: 40px;
+}
+
+.box5_con{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.ice{
+	position: absolute;
+	top: 221px;
+	left: 20px;
+}
+.ice1{
+	width: 100%;
+	background:#505CFD;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.ice2{
+	width: 100%;
+	background: #556677;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+.read{
+	float: left;
+	border-bottom: 1px solid blue;
+}
+.more{
+	float: left;
+	padding-left: 10px;
+}
+.candy{
+	padding-left: 25px;
+	padding-top: 30px;
+	height: 115px;
+}
+.candy .all{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #727171;
+}
+.socola{
+	width: 100%;
+	position: absolute;
+	background: blue;
+	height: 40px;
+	text-align: center;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.sugar{
+	display: inline-block;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: white;
+	font-size: 20px;
+}
+#title6{
+	width: 100%;
+	height: 300px;
+	background: #F6F7FE;
+	box-shadow:  0px 10px 20px 0px grey;
+}
+.title6_con{
+	width: 80%;
+	height: 100%;
+	margin: 0px auto;
+}
+.box6{
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding-right: 60px;
+	padding-top: 90px;
+}
+.box6 h1{
+	color: blue;
+	font-size: 50px;
+}
+.box6 h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#title7{
+	width: 50%;
+	height: 500px;
+	margin: 0px auto;
+}
+#title7 h1{
+	text-align: center;
+	color: blue;
+	padding-top: 60px;
+}
+#title7 p{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.snack{
+	width: 48%;
+	float: left;
+	padding-bottom: 20px;
+}
+.honey{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-radius: 5px;
+}
+.aqua{
+	padding-right: 605px;
+	border-radius: 5px;
+	padding-bottom: 15px;
+}
+.bbq{
+	width: 20%;
+
+	background: blue;
+	border: 1px solid blue;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 270px;
+	text-align: center;
+}
+.bbq a{
+	text-decoration: none;
+	color: white;
+}
+.bbq a:hover{
+	color: black;
+}
+#title8{
+	width: 100%;
+	background: #F6F7FE;
+}
+.title8_con{
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 15px;
+}
+.box7{
+	width: 3%;
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 50%;
+	padding: 10px;
+	background: blue;
+}
+.box7 h1{
+	color: white;
+}
+.title8_con p{
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+	#header{
+		height: 320px;
+	}
+	#banner{
+		height: 100%;
+		padding-top: 20px;
+	}
+	#banner .none{
+		display: none;
+	}
+	#banner .none1{
+		display: block;
+	}
+	#banner h4{
+		display: none;
+	}
+
+	.menu{
+		display: block;
+	}
+	.menu h4{
+		padding-top: 5px;
+	}
+	.menu .bar{
+		padding-left: 360px;
+		padding-top: 3px;
+	}
+	#banner ul li{
+		display: none !important;
+	}
+	#banner h4{
+		padding: 0px;
+		margin: 0px;
+		padding-left: 15px;
+	}
+	#banner h3{
+		font-size: 25px;
+		padding: 0px;
+		padding-left: 15px;
+	}
+	#banner .small{
+		font-size: 45px;
+		padding: 0px;
+		padding-top: 120px;
+		padding-left: 15px;
+	}
+	#history{
+		height: 800px;
+	}
+	#history #myself{
+		width: 100%;
+		height: 400px;
+		text-align: center;
+	}
+	#history #avatar{
+		width: 100%;
+		height: 50%;
+	}
+	.title{
+		width: 100%;
+		height: 800px;
+	}
+	.title_con {
+		width: 100%;
+		margin: 0px;
+	}
+	.title_con h2{
+		padding: 0px;
+		left: 100px;
+	}
+	.skill_con{
+		width: 95%;
+		padding-right: 5px;
+		padding-left: 10px;
+	}
+	.title2{
+		width: 100%;
+		height: 1100px;
+	}
+	.title2 h2{
+		left: 100px;
+		padding: 0px;
+	}
+	#services{
+		height: 60%;
+		background: white;
+	}
+	.box1{
+		width: 100%;
+		height: 40%;
+		margin-right: 0px !important;
+		margin-bottom: 30px;
+	}
+	#happy{
+		width: 100%;
+		height: 650px;
+	}
+	.happy_con{
+		width: 100%;
+		height: 100%;
+	}
+	#happy .box2{
+		width: 95%;
+		line-height: 20px;
+		margin-left: 10px;
+		margin-bottom: 30px;
+	}
+	.title3{
+		width: 100%;
+		height: 1700px;
+	}
+	.title3 h2{
+		left: 100px;
+		padding: 0px;
+	}
+	.work .box3{
+		margin: 5px;
+	}
+	.anh1{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.title4{
+		width: 100%;
+		height: 690px;
+	}
+	.title4_con{
+		width: 100%;
+		height: 100%;
+	}
+	.title4 h2{
+		left: 130px;
+		padding: 0px;
+	}
+	.box4_1{
+		display: none;
+	}
+	.box4{
+		width: 100%;
+		padding-right: 0px !important;
+	}
+	.move{
+		width: 50%;
+	}
+	.move_con{
+		width: 100%;
+		padding-right: 10px;
+	}
+	.move_con3{
+		padding-right: 15px;
+	}
+	.title5{
+		width: 100%;
+		height: 1700px;
+	}
+	.title5 h2{
+		left: 130px;
+		padding: 0px;
+	}
+	.box5{
+		width: 95%;
+		padding-left: 15px;
+	}
+	.socola{
+		width: 95%;
+	}
+	.ice{
+		left: 40px;
+	}
+	#title6{
+		width: 100%;
+		height: 1000px;
+	}
+	.box6{
+		width: 100%;
+		padding-bottom: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#title7{
+		width: 100%;
+		height: 500px;
+	}
+	.snack{
+		width: 100%;
+	}
+	.aqua{
+		width: 90%;
+		padding: 0px;
+		padding-right: 30px;
+	}
+	.honey{
+		padding-right: 95px;
+	}
+	.bbq{
+		width: 30%;
+		margin-left: 150px;
+	}
+	#title8{
+		width: 100%;
+
+	}
+	.title8_con{
+		width: 100%;
+		height: 150px;
+	}
+	.box7{
+		width: 5%;
+		font-size: 10px;
+	}
+	.title8_con p{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	#header{
+		height: 500px;
+
+	}
+	#banner h4{
+		padding-left: 320px;
+	}
+	#banner ul li{
+		padding-top: 60px;
+	}
+	#banner .none{
+		display: none;
+	}
+	#banner .none2{
+		display: block;
+	}
+	#banner h1{
+		padding: 0px;
+		font-size: 50px;
+		padding-top: 300px;
+		padding-left: 100px;
+	}
+	#banner h3{
+		font-size: 20px;
+		padding: 0px;
+		margin-left: 104px;
+	}
+	#history{
+		height: 800px;
+	}
+	#history #myself{
+		width: 100%;
+		height: 400px;
+		text-align: center;
+	}
+	#history #avatar{
+		width: 100%;
+		height: 50%;
+	}
+	.title{
+		width: 100%;
+		height: 800px;
+	}
+	.title_con {
+		width: 100%;
+		margin: 0px;
+	}
+	.title_con h2{
+		padding: 0px;
+		left: 250px;
+	}
+	.skill_con{
+		width: 80%;
+		padding-left: 90px;
+	}
+	.move1{
+		padding-left: 457px;
+	}
+	.move2{
+		padding-left: 537px;
+	}
+	.move3{
+		padding-left: 405px;
+	}
+	.move4{
+		padding-left: 449px;
+	}
+	.move5{
+		padding-left: 490px;
+	}
+	.move6{
+		padding-left: 507px;
+	}
+	.title2{
+		width: 100%;
+		height: 1000px;
+
+	}
+	.title2 h2{
+		padding: 0px;
+		left: 215px;
+	}
+	.box1{
+		width: 80%;
+		margin-left: 80px;
+		margin-bottom: 30px;
+	}
+	#happy{
+		width: 100%;
+		height: 400px;
+	}
+	#happy .box2{
+		width: 47%;
+		margin-bottom: 30px;
+	}
+	.title3{
+		width: 100%;
+		height: 800px;
+	}
+	.title3 h2{
+		padding: 0px;
+		left: 235px;
+	}
+	.anh{
+		width: 98%;
+		padding-left: 1%;
+	}
+	.title4{
+		width: 100%;
+		height: 550px;
+	}
+	.title4 h2{
+		padding: 0px;
+		left: 270px;
+	}
+	.box4_1{
+		display: none;
+	}
+	.box4{
+		width: 100%;
+	}
+	.move{
+		width: 30%;
+	}
+	.move_con{
+		width: 100%;
+		padding-right: 10px;
+	}
+	.move_con3{
+		padding-right: 15px;
+	}
+	.title5{
+		width: 100%;
+		height: 2000px;
+	}
+	.title5 h2{
+		padding: 0px;
+		left: 257px;
+	}
+	.box5{
+		width: 80%;
+		height: 30%;
+		padding-left: 90px;
+	}
+	.ice{
+		top: 270px;
+		left: 115px;
+	}
+	.socola{
+		width: 87%;
+	}
+	#title6{
+		width: 100%;
+		height: 1000px;
+	}
+	.box6{
+		width: 100%;
+	}
+	#title7{
+		width: 100%;
+		height: 500px;
+	}
+	.snack{
+		width: 51%;
+		padding-bottom: 20px;
+		padding-left: 100px;
+	}
+	.aqua{
+		width: 73%;
+		padding: 0px;
+		margin-left: 100px;
+	}
+	.honey{
+		padding-right: 210px;
+	}
+	.bbq{
+		width: 20%;
+		margin-left: 285px;
+	}
+	#title8{
+		width: 100%;
+
+	}
+	.title8_con{
+		width: 100%;
+		height: 150px;
+	}
+	.box7{
+		width: 3%;
+		font-size: 10px;
+	}
+	.title8_con p{
+		font-size: 20px;
+	}
+}
