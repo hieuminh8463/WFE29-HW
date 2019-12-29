@@ -406,6 +406,11 @@
 	float: left;
 	padding-right: 10px;
 }
+.move h3{
+	font-size: 40px;
+	color: #d8dad6;
+	display: none;
+}
 .move_con{
 	width: 65%;
 	float: left;
@@ -435,8 +440,10 @@
 .icon .dot{
 	display: inline-block;
 }
-.icon .dot1{
+
+.icon .grey1{
 	display: none;
+	color: grey;
 }
 .icon{
 	text-align: center;
@@ -780,12 +787,21 @@
 	.move{
 		width: 50%;
 	}
+	.move h3{
+		display: block;
+	}
 	.move_con{
 		width: 100%;
 		padding-right: 10px;
 	}
+	.move_con h3{
+		display: none;
+	}
 	.move_con3{
 		padding-right: 15px;
+	}
+	.icon .grey1{
+		display: block;
 	}
 	.title5{
 		width: 100%;
@@ -975,12 +991,21 @@
 	.move{
 		width: 30%;
 	}
+	.move h3{
+		display: block;
+	}
+	.move_con h3{
+		display: none;
+	}
 	.move_con{
 		width: 100%;
 		padding-right: 10px;
 	}
 	.move_con3{
 		padding-right: 15px;
+	}
+	.icon .grey1{
+		display: block;
 	}
 	.title5{
 		width: 100%;
