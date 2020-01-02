@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script language="javascript">
+		var N = 7
+		for(i=0;i<N;i++) {
+		//tao hang (row) *
+		for(j=0;j<=i;j++) {
+			document.write(" * ")
+		}
+		//xuong dong khi hien thi ket qua cua tung hang
+		document.write("<br/>")
+	}
+	document.write("<br/>")
+
+	for(i=0;i<N;i++){
+		for(j=0;j<N;j++){
+			document.write(" * ")
+		}
+		document.write("<br/>")	
+	}
+	document.write("<br/>")	
+
+	for(i=0;i<N;i++){
+		for(j=0;j<N;j++){
+			if(i == 0 || i == N-1 || j == 0 || j == N-1){
+				document.write(" * ")
+			}
+			else{
+				document.write(" &nbsp&nbsp ")
+			}
+		}
+		document.write("<br/>") 
+	}
+	document.write("<br/>")	
+	
+	for(i=N;i>0;i--) {
+        //tao hang (row) *
+        for(j=0;j<=i-1;j++) {
+        	document.write(" * ")
+        }
+        //xuong dong khi hien thi ket qua cua tung hang
+        document.write("<br/>")
+    }
+
+
+</script>
+
+
+</body>
+</html>
