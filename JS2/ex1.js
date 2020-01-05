@@ -1,11 +1,20 @@
-var section=document.getElementsByClassName("section");
-for(var i=0 ; i<section.length ; i++){
-	document.getElementsByClassName("tab")[i].addEventListener("click", function(){
-		active = document.getElementsByClassName("active")[0];
-		active.classList.remove("active");
-		var active=getElementsByClassName("active")[0];
-		active.classList.remove("active");
-		this.classList.add("active");
-		this.nextElementSibling.classList.add("active");
-	})
+var buttons = document.getElementsByClassName('tablinks');
+var contents = document.getElementsByClassName('tabcontent');
+function showContent(id){
+    for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = 'none';
+    }
+    var content = document.getElementById(id);
+    content.style.display = 'block';
 }
+for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", function(){
+        var id = this.textContent;
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove("active");
+        }
+        this.className += " active";
+        showContent(id);
+    });
+}
+showContent('Tab 1');
