@@ -1,0 +1,12 @@
+.section{
+	width: 30%;
+	float: left;
+	position: relative;
+}
+.tab{
+	position: absolute;
+	left: 10px;
+}
+.content{
+	position: absolute;
+}

@@ -1,0 +1,10 @@
+tr:hover{
+	background-color: green;
+}
+p{
+	float: left;
+	width: 5%;
+	text-decoration: underline;
+	color: #4D4755;
+	cursor: default;
+}
