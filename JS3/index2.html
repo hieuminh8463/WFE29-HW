@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="index2.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+	<div class="content">
+		<img class="slideimg" src="img/1.jpg">
+		<img class="slideimg" src="img/2.jfif">
+		<img class="slideimg" src="img/3.jfif">
+		<img class="slideimg" src="img/4.jfif">
+		<img class="slideimg" src="img/5.jfif">
+		<img class="slideimg" src="img/6.jfif">
+		<img class="slideimg" src="img/7.jfif">
+		<img class="slideimg" src="img/8.jfif">
+		<img class="slideimg" src="img/9.jfif">
+		<img class="slideimg" src="img/10.jfif">
+	</div>
+	<div id="btn">
+		<button id="prev" onclick="prev()"><i class="fa fa-arrow-left icon" aria-hidden="true"></i></button>
+		<button id="next" onclick="next()"> <i class="fa fa-arrow-right icon" aria-hidden="true"></i></button>
+	</div>
+	<script type="text/javascript">
+		var slide=document.getElementsByClassName("slideimg");
+		var numslide=0
+		function next(){
+			numslide++;
+			if(numslide>9){
+				numslide=0;
+			}
+			show(numslide)
+		}
+		function prev(){
+			numslide--;
+			if(numslide<0){
+				numslide=9;
+			}
+			show(numslide)
+		}
+		showslide(0);
+		function showslide(n){
+			for(var i=0;i<slide.length;i++){
+				slide[i].style.display = 'none';
+			}
+			slide[n].style.display = 'block';
+		}
+	</script>
+
+	
+</body>
+</html>

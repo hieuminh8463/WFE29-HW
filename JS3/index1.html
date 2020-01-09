@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.error{
+			color: red;
+		}
+		#form1{
+			width: 65%;
+			margin: 0px auto;
+			border: 1px solid black;
+			padding: 20px;
+			border-radius: 20px;
+		}
+		form input{
+			padding-right:332px;
+			padding-bottom: 8px;
+		}
+		#ten{
+			margin-left:100px;
+			margin-bottom: 30px;
+		}
+		.gt{
+			margin-left: 103px;
+			margin-bottom: 30px;
+		}
+		#em{
+			margin-left:120px;
+			margin-bottom: 30px;
+		}
+		#sdt{
+			margin-left: 74px;
+			margin-bottom: 30px;
+		}
+		#mk{
+			margin-left:102px;
+			margin-bottom: 30px;
+		}
+		#mk2{
+			margin-left: 45px;
+			margin-bottom: 30px;
+		}
+		span{
+			margin-left: 100px;
+		}
+		button{
+			margin-left: 430px;
+			padding: 5px;
+			color: white;
+			background: red;
+
+		}
+
+	</style>
+</head>
+<body>
+	<form name="frm">
+		<div id="form1">
+			Họ và tên:<input id="ten" type="text" name="name"><span class="error"></span><br>
+			Giới tính:<input class="gt" type="radio" name="">Nam<input class="gt" type="radio" name="">Nữ<br>
+			Email: <input id="em" type="email" name="email"><span class="error"></span><br>
+			Số điện thoại: <input id="sdt" type="text" name="phone"><span class="error"></span><br>
+			Mật khẩu:<input id="mk" type="password" name="pass"><span class="error"></span><br>
+			Nhập lại mật khẩu:<input id="mk2" type="password" name="pass2"><span class="error"></span><br>
+		</div>
+		<button>Đăng kí</button>
+		<button>Xóa trắng</button>
+	</form>
+	
+	<script type="text/javascript">
+		function validateEmail(email) {
+			var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(String(email).toLowerCase());
+		}
+		function phonenumber(phone)
+		{
+			var re2 = /((09)|(03)|(06)|(08)|(02)+([0-9]{8})\b)/g;
+			return re2.test(phone);
+		}
+		var button=document.getElementsByTagName("button")[0];
+		// document.getElementById('ten').addEventListener("keyup", function(e){
+		// 	e.preventDefault();
+		// 	if(this.value==""){
+		// 		this.nextElementSibling.innerHTML="Yêu cầu nhập họ tên đầy đủ";
+		// 	}else if (this.value.length<=8) {
+		// 		this.nextElementSibling.innerHTML="Nhập tên lớn hơn 8 kí tự";
+		// 	}else{
+		// 		this.nextElementSibling.innerHTML="";
+		// 	}})
+		button.addEventListener("click", function(event){
+			event.preventDefault();
+			var name= document.frm.name;
+			var email=document.frm.email;
+			var phone=document.frm.phone;
+			var firstpass=document.frm.pass;
+			var secondpass=document.frm.pass2;
+			if(name.value==""){
+				name.nextElementSibling.innerHTML="Yêu cầu nhập họ tên đầy đủ";
+				return;
+			}else if (name.value.length<=8) {
+				name.nextElementSibling.innerHTML="Nhập tên lớn hơn 8 kí tự";
+				return;
+			}else{
+				name.nextElementSibling.innerHTML="";
+			}
+
+
+			if(email.value==""){
+				email.nextElementSibling.innerHTML="Yêu cầu nhập email đầy đủ";
+				return;
+			}else if (!validateEmail(email.value)) {
+				email.nextElementSibling.innerHTML="Nhập đúng định dạng";
+				return;
+
+			}else{
+				email.nextElementSibling.innerHTML="";
+			}
+
+
+			if(phone.value==""){
+				phone.nextElementSibling.innerHTML="Yêu cầu nhập số điện thoại";
+				return;
+
+			}else if (phonenumber(phone.value) == false) {
+				phone.nextElementSibling.innerHTML="Nhập đúng định dạng sô diện thoại";
+				return;
+
+			}else{
+				phone.nextElementSibling.innerHTML="";
+			}
+			if(firstpass.value==""){
+				firstpass.nextElementSibling.innerHTML="Yêu cầu nhập mật khẩu";
+				return;
+			}else if (firstpass.value.length<=6) {
+				firstpass.nextElementSibling.innerHTML="Yêu cầu khẩu lớn hơn 6 kí tự";
+				return;
+			}else{
+				firstpass.nextElementSibling.innerHTML="";
+			}
+			if(secondpass.value==""){
+				secondpass.nextElementSibling.innerHTML="Yêu cầu xác nhận mật khẩu";
+				return;
+			}else{
+				secondpass.nextElementSibling.innerHTML="";
+			}
+
+			if(firstpass.value!=secondpass.value){
+				secondpass.nextElementSibling.innerHTML="Mật khẩu nhập lại không đúng";
+				return;
+			}  
+			alert("dki thanh cong")
+
+		})
+	</script>
+</body>
+</html>
