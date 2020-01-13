@@ -1,0 +1,15 @@
+
+#tabww h3 {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #EFEFEF;
+	padding: 4px 8px;
+	display: block;
+}
+#tabww{
+	width: 80%;
+	margin: 0px auto;
+}
+h3{
+	color: green;
+}

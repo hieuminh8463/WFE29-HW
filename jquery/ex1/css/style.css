@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+form{
+	margin: auto;
+	width: 50%;
+	margin-top: 50px;
+}
+h3
+{
+	/* background: #2184BE; */
+	padding: 10px 50px 10px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 10px;
+	color: #AAAAAA;
+	background: #EEEEEE;
+}
+#s1
+{
+	background: #2184BE;
+	color: #fff;
+}
+.content
+{
+	margin-top: 20px;
+	background: #EEEEEE;
+	border-radius: 5px;
+	display: none;
+	padding-bottom: 150px;
+}
+#cn1
+{
+	display: block;
+}
+h4
+{
+	padding: 10px;
+}
+.hr
+{
+	border-bottom: 1px solid #E5E5E5;
+	width: 95%;
+	margin: auto;
+}
+p
+{
+	padding: 10px;
+}
+input
+{
+	margin: 5px 10px 10px 15px;
+	padding: 5px;
+	width: 250px;
+}
+.show
+{
+	float: right;
+	margin-top: 20px;
+}
+a
+{
+	margin-left: 20px;
+	cursor: pointer;
+}
+#pre
+{
+	color: #AAAAAA;
+	background: #EEEEEE;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #EEEEEE;
+}
+#next
+{
+	background: #2184BE;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	border: 1px solid #EEEEEE;
+}
+span
+{
+	padding-left: 30px;
+	color: #9A1F11;
+}
+ul
+{
+	margin: 10px 30px;
+}
+input#mychecked
+{
+	margin: 10px 0px 10px 10px;
+	width: 20px;
+}
