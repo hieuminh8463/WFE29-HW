@@ -1,0 +1,448 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+ul li:hover{
+	background-color: #0887ED;
+	color: white;
+}
+.banner{
+	width: 70%;
+	height: 50px;
+	margin: 0px auto;
+}
+.banner img{
+	width: 10%;
+	padding-right: 800px;
+	float: left;
+}
+.banner ul{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.banner ul li{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 20px;
+	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 10px;
+}
+.banner2{
+	width: 100%;
+	height: 1000px;
+	background: url(images/pro-bg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.banner2 *{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.banner2 h4{
+	padding-top: 100px;
+	font-size: 30px;
+}
+.banner2 h1{
+	font-size: 80px;
+}
+.banner2 h5{
+	width: 10%;
+	margin: 0px auto;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 20px;
+}
+.banner2 h5:hover{
+	background-color: #0887ED;
+	color: white;
+}
+.banner3 {
+	width: 100%;
+	height: 600px;
+	background-color: #E6FCFF;
+}
+.banner3_1{
+	padding-top: 80px;
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+}
+.anh1{
+	width: 30%;
+	padding-right: 40px;
+	float: left;
+}
+.candy{
+	width: 60%;
+	float: left;
+}
+.candy h1{
+	font-size: 100px;
+}
+.candy p {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.candy input{
+	margin-bottom: 15px;
+}
+.candy ul{
+	padding-top: 20px;
+}
+.candy ul li{
+	float: left;
+	border: 1px solid black;
+	border-radius: 25px;
+	padding: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 10px;
+}
+.banner4{
+	width: 70%;
+	height: 800px;
+	margin: 0px auto;
+}
+.banner4 #big{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 50px;
+}
+.banner4 h1{
+	text-align: center;
+	font-size: 80px;
+	padding-bottom: 50px;
+}
+.sugar{
+	width: 15%;
+	float: left;
+	padding: 60px;
+	text-align: center;
+	border: 1px solid black;
+	margin-right: 10px;
+}
+.sugar h4{
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.sugar p{
+	padding-bottom: 35px;
+}
+.sugar span{
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+.banner5{
+	width: 100%;
+	height: 500px;
+	background-color: #E6FCFF;
+}
+.banner5_1{
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+}
+.socola{
+	width: 60%;
+	float: left;
+}
+.socola h1{
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.socola span{
+	font-size: 20px;
+}
+.socola p{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.ice{
+	background: white;
+	width: 7%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+}
+.ice1{
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+}
+.ice2{
+	background: #456A96;
+	color: white;
+	padding:5px;
+}
+.hot{
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.hot h5{
+	font-size: 20px;
+}
+.one{
+	width: 25%;
+	float: left;
+	padding-left: 90px;
+	padding-top: 35px;
+}
+.stone{
+	width: 100%;
+	height: 50px;
+	background-color: #273C56;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+		box-shadow:  0px 0px 15px 0px #888888;
+}
+.stone p{
+	padding-top: 10px;
+}
+.stone2{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+		box-shadow:  0px 0px 15px 0px #888888;
+}
+.stone2_con{
+	width: 70%;
+	margin: 0px auto;
+}
+.stone2_con h3{
+	border: 1px solid blue;
+	padding: 10px;
+	margin-top: 5px;
+	background: blue;
+	color: white;
+	text-align: center;
+}
+.stone2_con p{
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.banner6{
+	width: 65%;
+	height: 800px;
+	margin: 0px auto;
+}
+.banner6 h1{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.banner6 >p{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.banner6_1{
+	width: 40%;
+	float: left;
+	text-align: center;
+	position: relative;
+	padding: 30px;
+	margin-bottom: 50px;
+	margin-right: 60px;
+	box-shadow:  0px 0px 15px 0px #888888;
+}
+.banner6_1 img{
+	border: 1px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	left: 238px;
+}
+.banner6_1 p{
+	padding-top: 20px;
+}
+.banner7{
+	background: #1A2A38;
+	height: 50px;
+}
+.banner7 p{
+	color: grey;
+	text-align: center;
+	line-height: 50px;
+}
+@media screen and (max-width: 480px){
+	.banner{
+		width: 100%;
+		height: 50px;
+	}
+	.banner ul{
+		display: none;
+	}
+	.banner img{
+		width: 50%;
+		padding: 0px;
+		padding-left: 120px;
+	}
+	.banner2{
+		width: 100%;
+		height: 800px;
+	}
+	.banner2 h5{
+		width:30%;
+	}
+	.banner3{
+		width: 100%;
+		height: 1100px;
+	}
+	.banner3_1{
+		width: 100%;
+		height: 50%;
+	}
+	.anh1{
+		width: 80%;
+		padding-left: 50px;
+	}
+	.candy{
+		width: 90%;
+		padding-left: 30px;
+	}
+	.candy h1{
+		font-size: 70px;
+	}
+	.banner4{
+		width: 100%;
+		height: 2000px;
+	}
+	.sugar{
+		width: 60%;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	.banner5{
+		width: 100%;
+		height: 800px;
+	}
+	.banner5_1{
+		width: 80%;
+		height: 100%;
+	}
+	.socola{
+		width: 100%;
+		text-align: center;
+	}
+	.ice{
+		width: 25%;
+		margin-left: 40px;
+	}
+	.one{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.banner6{
+		width: 100%;
+		height: 1400px;
+	}
+	.banner6_1{
+		width: 80%;
+		margin-left: 20px;
+	}
+	.banner6_1 img{
+		left: 185px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	.banner{
+		width: 100%;
+		height: 50px;
+	}
+	.banner ul{
+		display: none;
+	}
+	.banner img{
+		width: 40%;
+		padding: 0px;
+		padding-left: 220px;
+	}
+	.banner2{
+		width: 100%;
+		height: 800px;
+	}
+	.banner2 h5{
+		width:30%;
+	}
+	.banner2 *{
+		padding: 15px;
+	}
+	.banner3{
+		width: 100%;
+		height: 1200px;
+	}
+	.banner3_1{
+		width: 100%;
+		height: 50%;
+	}
+	.anh1{
+		width: 80%;
+		padding-left: 50px;
+	}
+	.candy{
+		width: 90%;
+		padding-left: 30px;
+	}
+	.candy h1{
+		font-size: 70px;
+	}
+	.banner4{
+		width: 100%;
+		height: 1200px;
+	}
+	.sugar{
+		width: 28%;
+		margin-left: 30px;
+		margin-bottom: 30px;
+	}
+	.banner5{
+		width: 100%;
+		height: 800px;
+	}
+	.banner5_1{
+		width: 80%;
+		height: 100%;
+	}
+	.socola{
+		width: 100%;
+		text-align: center;
+	}
+	.ice{
+		width: 25%;
+		margin-left: 135px;
+	}
+	.one{
+		width: 100%;
+		padding-top: 30px;
+	}
+	.banner6{
+		width: 100%;
+		height: 1300px;
+	}
+	.banner6_1{
+		width: 80%;
+		margin-left: 20px;
+	}
+	.banner6_1 img{
+		left: 300px;
+	}
+}

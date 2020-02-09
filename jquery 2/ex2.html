@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="ex2.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="myPicture">
+        <h3 class="content">Album bé gái dễ thương</h3>
+        <img id="img1" class="content_img" src="images/2.jfif" alt="test img1">
+        <img id="img2" class="content_img" src="images/3.jfif" alt="test img2">
+        <img id="img3" class="content_img" src="images/4.jfif" alt="test img3">
+        <img id="img4" class="content_img" src="images/5.jfif" alt="test img4">
+        <img id="img5" class="content_img" src="images/tải xuống.jfif" alt="test img5">
+    </div>
+    <div id="myModal" class="modal">
+        <div class="tag_x">&times;</div>
+        <img id="show_img" src="">
+        <div class="title"></div>
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('.content_img').click(function(){
+                var src = $(this).attr('src');
+                $('#myModal').css({"display" : 'block'});
+                $('#show_img').attr('src',src);
+                $('.title').html(this.alt);
+            });
+            $('.tag_x').click(function(){
+                $('#myModal').css({"display" : 'none'});
+            });
+        });
+    </script>
+
+</body>
+</html>

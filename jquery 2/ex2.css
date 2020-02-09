@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    position: relative;
+}
+img
+{
+    max-width: 100%;
+}
+.myPicture
+{
+    width: 67%;
+    margin: auto;
+}
+.content
+{
+    width: 20%;
+    padding-top: 10%;
+    margin: auto;
+    color: #4E62FB;
+
+}
+.content_img
+{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+.content_img:hover
+{
+    opacity: 0.8;
+}
+.modal
+{
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+}
+.tag_x
+{
+    color: #fff;
+    font-size: 3em;
+    float: right;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.tag_x:hover
+{
+    color: red;
+}
+#show_img
+{
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+}
+.title
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 86px;
+}
+#show_img, .title
+{
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom
+{
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}

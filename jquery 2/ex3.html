@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="ex3.css">
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div>
+		<ul class="menu">
+			<li><a href="">Home</a></li>
+			<li><a href="">Profile</a></li>
+			<li><a href="">Services</a>
+				<ul>
+					<li><a href="">Web Design</a></li>
+					<li><a href="">Web Development</a></li>
+					<li><a href="">Logo</a></li>
+					<li><a href="">Batagor</a>
+						<ul>
+							<li><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li><a href="">5</a></li>
+						</ul>
+					</li>
+					<li><a href="">nàudnhas</a></li>
+				</ul>
+			</li>
+			<li><a href="">Portofolio</a></li>
+			<li><a href="">Pengen ke Arab </a></li>
+			<li><a href="">Beasiswa S2 Go! Goo!</a>
+				<ul>
+					<li><a href="">6</a></li>
+					<li><a href="">7</a></li>
+				</ul>
+			</li>
+			<li><a href="">Hire me</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".menu li").hover(function(){
+				$(this).find("ul:first").slideDown("fast");
+			},function(){
+				$(this).find("ul:first").slideUp(500);
+			});
+		});
+
+	</script>
+	
+</body>
+</html>

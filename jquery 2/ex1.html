@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="ex1.css">
+	<script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<div>
+		<ul class="menu">
+			<li><a href="">About</a></li>
+			<li><a href="">Pricing</a></li>
+			<li><a href="">Why go Pro</a></li>
+			<li class="show"><a href="">Support</a>
+				<ul>
+					<li><a href="">Doc</a></li>
+					<li><a href="">FAQ</a></li>
+					<li><a href="">Donate</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</li>
+			<li><a href="">Account</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".show").on('click',function(){
+				$(this).find("ul:first").slideToggle("fast");
+		});
+		});
+
+	</script>
+	
+</body>
+</html>
