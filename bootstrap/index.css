@@ -1,0 +1,129 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+.menu{
+	background: url(img_unit13_resposive/bg-masthead.jpg);
+	height: 800px;
+}
+.item_right{
+	margin-left: 1000px; 
+}
+.boot{
+	margin-left: 150px;
+}
+.title{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding-top: 200px;
+	width: 35%;
+}
+.s1{
+	color: white;
+	width: 50%;
+	padding-bottom: 50px;
+}
+.btn_1{
+	color: orange;
+	margin-left: 880px;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 20px;
+}
+.btn_1:hover{
+	background: #EE5D46;
+	color: white;
+	text-decoration: none;
+}
+.btn_2:hover{
+	background: #EE5D46;
+	color: white;
+	text-decoration: none;
+}
+.btn_3:hover{
+	background: #EE5D46;
+	color: white;
+	text-decoration: none;
+}
+.content_1{
+	background: #EE5D46;
+	height: 400px;
+}
+.title2{
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+.s2{
+	color: white;
+	width: 60%;
+	padding-bottom: 50px;
+}
+.btn_2{
+	margin-left: 860px;
+	border: 1px solid white;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 20px;
+	color: black;
+	background: white;
+}
+.title3{
+	text-align: center;
+	padding-top: 100px;
+}
+.icon_content{
+	color: #EE5D46;
+	text-align: center;
+}
+.s3{
+	text-align: center;
+}
+.s4{
+	padding-top: 100px;
+}
+.content_3{
+	width: 100%;
+	padding-top: 100px;
+	padding-left: 0px !important;
+}
+.content_4{
+	padding-top: 100px;
+	background: black;
+	height: 350px;
+}
+.title4{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-bottom: 50px;
+}
+.btn_3{
+	margin-left: 860px;
+	border: 1px solid white;
+	padding: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 20px;
+	color: black;
+	background: white;
+
+}
+.s5{
+	text-align: center;
+}
+.s6
+@media screen and (min-width: 481px) and (max-width: 768px){
+	.boot{
+		margin-right:100px !important;
+	}
+	.menu{
+		height: 1000px;
+	}
+	.title{
+		font-size: 10px;
+		width: 80%;
+	}
+}
